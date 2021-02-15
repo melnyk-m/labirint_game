@@ -1,0 +1,65 @@
+.wall{
+    background: rgb(80, 44, 20);
+    height: 15px;
+    width: 15px;
+}
+
+.row{
+ display: flex;
+ flex-direction: row;
+ width: auto;
+ align-items: center;
+}
+
+.line{
+    background: rgb(179, 191, 223);
+    height: 15px;
+    width: 15px;
+}
+
+.entrance{
+    width:15px;
+    height:15px;
+    background-color:#fff;
+    border-bottom: 10px solid cyan;
+    border-top: 10px solid cyan;
+}
+.exit{
+    
+    background-image: url(https://i.gifer.com/sis.gif);
+    height: 15px;
+    width: 15px;
+}
+.pers{
+    background:  rgb(235, 42, 106);
+    height: 15px;
+    width: 15px;
+}
+
+.panel{
+    width:200px;
+    height:200px;
+    padding:40px;
+    background-color: deepskyblue;
+}
+.panel button{
+    font-size:25px;
+    background-color: mediumslateblue;
+    border:none;
+    color:#fff;
+    padding:10px;
+    width:50px;
+    height:50px;
+}
+
+.panel .bottom{
+    margin-left: 55px;
+    margin-top:10px;
+}
+.panel .up{
+    margin-top:10px;
+}
+
+.btn-left{
+    margin-left:20px;
+}
